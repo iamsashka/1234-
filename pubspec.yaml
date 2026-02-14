@@ -1,0 +1,42 @@
+name: firebase_posts_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Firebase - СОВМЕСТИМЫЕ ВЕРСИИ
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  
+  # BLoC
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
+  
+  # UI
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.17
+  lottie: ^3.3.1
+  
+  # Утилиты
+  intl: ^0.20.2
+  email_validator: ^3.0.0
+  flutter_local_notifications: ^18.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/animations/
+    - assets/icons/
